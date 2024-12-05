@@ -1,4 +1,4 @@
-# Multi-Level Inheritance in Python
+# Multi-Level Inheritance Example in Python
 
 ## Overview
 Demonstrates a three-level inheritance hierarchy representing vehicles, cars, and electric cars.
@@ -54,9 +54,5 @@ obj.show()
 - Keep inheritance hierarchies simple and logical
 - Prefer composition when appropriate
 - Use type hints for clarity
-- Leverage `super()` for proper initialization
 
-## Potential Improvements
-- Add error handling
-- Implement more sophisticated methods
-- Consider adding abstract base classes
+

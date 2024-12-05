@@ -2,7 +2,7 @@
 
 class LightingSystem:
     def __init__(self, light_status: str):
-        self.light_status = light_status
+        self.light_status:str = light_status
     
     def turn_on_lights(self):
         self.light_status = "On"
@@ -14,7 +14,7 @@ class LightingSystem:
 
 class SecuritySystem:
     def __init__(self, security_status: str):
-        self.security_status = security_status  
+        self.security_status:str = security_status  
     
     def arm_security(self):
         self.security_status = "Armed"
@@ -29,7 +29,7 @@ class SmartHome(SecuritySystem, LightingSystem):
         # Properly initialize both parent classes
         SecuritySystem.__init__(self, security_status)
         LightingSystem.__init__(self, light_status)
-        self.home_name = home_name
+        self.home_name:str = home_name
     
     def display_status(self):
         print(f"Smart Home: {self.home_name}")

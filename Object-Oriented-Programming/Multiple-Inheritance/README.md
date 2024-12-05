@@ -1,4 +1,4 @@
-# Smart Home Multiple Inheritance Example
+# Smart Home Multiple Inheritance Example in Python
 
 ## Overview
 This Python script demonstrates the concept of multiple inheritance by creating a `SmartHome` class that inherits from both `SecuritySystem` and `LightingSystem` classes.

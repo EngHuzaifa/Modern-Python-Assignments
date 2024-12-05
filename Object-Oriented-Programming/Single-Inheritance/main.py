@@ -2,11 +2,11 @@
 
 class Manager:
     def __init__(self,name:str,age:int,company:str,position:str,salary:float):
-        self.name = name
-        self.age = age
-        self.company = company
-        self.position = position
-        self.salary = salary
+        self.name:str = name
+        self.age:int = age
+        self.company:str = company
+        self.position:str = position
+        self.salary:float = salary
        
     
     def display_info(self):
@@ -23,7 +23,7 @@ class Manager:
 class Developer(Manager):
     def __init__(self, name:str, age:int, company:str, position:str, salary:float, percentage:float, languages:list):
         super().__init__(name, age, company, position, salary)
-        self.languages = languages
+        self.languages:list = languages
 
     def display_all_details(self):
         super().display_info()
